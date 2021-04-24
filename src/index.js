@@ -2,3 +2,6 @@
 export * from './components/Requirements';
 export * from './components/ProductDescriptionComponent';
 export * from './components/ProductLister';
+export * from './components/CardComponent';
+export * from './components/GenericButton';
+export * from './components/IntroCard';

@@ -2,7 +2,8 @@
   "name": "mid-town-components",
   "version": "1.0.0",
   "description": "A React Component library for setting up a login page",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "@babel/core": "^7.13.15",
     "@babel/preset-react": "^7.13.13",
+    "@rollup/plugin-commonjs": "^18.0.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@storybook/addon-actions": "^6.2.8",
     "@storybook/addon-essentials": "^6.2.8",
@@ -23,9 +25,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "rollup": "^2.45.2",
+    "rollup-plugin-auto-named-exports": "*",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^2.4.1",
+    "rollup-plugin-svg": "^2.0.0",
     "rollup-plugin-terser": "^7.0.2"
   },
   "peerDependencies": {
