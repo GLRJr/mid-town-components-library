@@ -10,7 +10,7 @@ let body =
 const CardComponent = (props, onClick) => {
   return (
     <div className="main">
-      <div className="imageContainer">
+      <div className="ImageContainer">
         <img src={image} alt="" />
       </div>
 

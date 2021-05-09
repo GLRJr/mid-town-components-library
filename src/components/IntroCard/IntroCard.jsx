@@ -7,7 +7,7 @@ let body = "I am a Los Angeles-based programmer with a passion for technology";
 
 const IntroCard = (props, onClick) => {
   return (
-    <div className="main">
+    <div className="Intro-card-main">
       <div className="cardContent">
         <div className="cardTitle">
           <h1>{title}</h1>

@@ -5,3 +5,4 @@ export * from './components/ProductLister';
 export * from './components/CardComponent';
 export * from './components/GenericButton';
 export * from './components/IntroCard';
+export * from './components/NueCard';
